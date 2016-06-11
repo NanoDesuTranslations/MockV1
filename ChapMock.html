@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +22,10 @@
 
     <!-- Site-specific styles: establish our theme -->
     <link href="css/site.css" rel="stylesheet">
+    
+    <!-- Begin mock: script code that generates content, which a real version will provide in some other way.. -->
     <script type="text/javascript" src="scripts/MockStories.js"></script>
+    <!-- End mock -->
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -29,18 +33,21 @@
         })
     </script>
 </head>
+
 <body>
     <div class="jumbotron">
         <nav class="navbar navbar-default box">
             <div class="container header-image">
                 <a href="http://www.nanodesutranslations.wordpress.com">
-                    <img class="img-responsive" border="0" alt="" src="https://sasamisanthetranslation.files.wordpress.com/2013/08/sasami4.png" />
+                    <img class="img-responsive" border="0" alt="" src="https://sasamisanthetranslation.files.wordpress.com/2013/08/sasami4.png"
+                    />
                 </a>
             </div>
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -53,44 +60,46 @@
                     <ul class="nav navbar-nav centered">
                         <li><a href="#">About this translation</a></li>
                         <li class="dropdown">
+                            <!-- Begin mock: The nested UL/LI structure below *will be* generated vis JS for mock purposes -->
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Volume 1<span class="caret"></span></a>
                             <ul class="dropdown-menu" data-submenu>
-                                <li><a href="#">Color Illustrations</a></li>
+                                <li><a href="ChapMock.html?chap=1">Color Illustrations</a></li>
                                 <li class="dropdown-submenu">
                                     <a href="#">Part 1: Amaterasu</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Chapter 1</a></li>
-                                        <li><a href="#">Chapter 2</a></li>
-                                        <li><a href="#">Chapter 3</a></li>
-                                        <li><a href="#">Chapter 4</a></li>
-                                        <li><a href="#">Chapter 5</a></li>
-                                        <li><a href="#">Chapter 6</a></li>
-                                        <li><a href="#">Chapter 7</a></li>
+                                        <li><a href="ChapMock.html?chap=2">Chapter 1</a></li>
+                                        <li><a href="ChapMock.html?chap=3">Chapter 2</a></li>
+                                        <li><a href="ChapMock.html?chap=4">Chapter 3</a></li>
+                                        <li><a href="ChapMock.html?chap=5">Chapter 4</a></li>
+                                        <li><a href="ChapMock.html?chap=6">Chapter 5</a></li>
+                                        <li><a href="ChapMock.html?chap=7">Chapter 6</a></li>
+                                        <li><a href="ChapMock.html?chap=8">Chapter 7</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
                                     <a href="#">Part 2: Yamata no Orochi</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Chapter 8</a></li>
-                                        <li><a href="#">Chapter 9</a></li>
-                                        <li><a href="#">Chapter 10</a></li>
-                                        <li><a href="#">Chapter 11</a></li>
-                                        <li><a href="#">Chapter 12</a></li>
-                                        <li><a href="#">Chapter 13</a></li>
-                                        <li><a href="#">Chapter 14</a></li>
+                                        <li><a href="ChapMock.html?chap=9">Chapter 8</a></li>
+                                        <li><a href="ChapMock.html?chap=10">Chapter 9</a></li>
+                                        <li><a href="ChapMock.html?chap=11">Chapter 10</a></li>
+                                        <li><a href="ChapMock.html?chap=12">Chapter 11</a></li>
+                                        <li><a href="ChapMock.html?chap=13">Chapter 12</a></li>
+                                        <li><a href="ChapMock.html?chap=14">Chapter 13</a></li>
+                                        <li><a href="ChapMock.html?chap=15">Chapter 14</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
                                     <a href="#">Part 3: Ninigi no Mikoto</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Chapter 15</a></li>
-                                        <li><a href="#">Chapter 16</a></li>
-                                        <li><a href="#">Chapter 17</a></li>
+                                        <li><a href="ChapMock.html?chap=16">Chapter 15</a></li>
+                                        <li><a href="ChapMock.html?chap=17">Chapter 16</a></li>
+                                        <li><a href="ChapMock.html?chap=18">Chapter 17</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Afterword</a></li>
+                                <li><a href="ChapMock.html?chap=19">Afterword</a></li>
                                 <li><a href="#">PDF and ePub Version</a></li>
                             </ul>
+                            <!-- End mock -->
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Volume 2<span class="caret"></span></a>
@@ -101,8 +110,10 @@
                         <li><a href="#">Update History</a></li>
                         <li><a href="#">Contact Us</a></li>
                     </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
         </nav>
     </div>
 
@@ -111,7 +122,10 @@
             <div class="col-md-9 col-xs-12 colpad-right">
                 <div class="panel panel-default box">
                     <div class="panel-heading">
-                        <h4>Chapter <script>document.write(nPage + ": " + arLorem[nPage]);</script></h4>
+                        <h4>Chapter 
+                            <!-- Begin mock: script code that generates content, which a real version will provide in some other way.. -->
+                            <script>document.write(nPage + ": " + arLorem[nPage]);</script></h4>
+                            <!-- End mock -->
                     </div>
                     <div class="panel-body">
 
@@ -120,7 +134,12 @@
                              src="https://sasamisanthetranslation.files.wordpress.com/2014/05/sg_10023.png?w=774" 
                              height="570" alt="" border="0" 
                              width="774" />-->
-                        <script type="text/javascript">document.writeln(loremStory(nPage+1));</script>
+                        <!-- Begin mock: script code that generates content, which a real version will provide in some other way. -->
+                        <script type="text/javascript">
+                            // Note that nPage is a page ID, taken (in this mock) from the QueryString of the URI.
+                            document.writeln(loremStory(nPage+1));
+                        </script>
+                        <!-- End mock -->
                         <!--<p>
                             <a href="https://sasamisanthetranslation.wordpress.com/volume-1/part-1-amaterasu/chapter-1/">Previous Page</a><br />
                             <a href="https://sasamisanthetranslation.wordpress.com/volume-1/part-1-amaterasu/chapter-3/">Next Page</a>
@@ -135,7 +154,8 @@
                         <h6>NanoDesu Translations Home</h6>
                         <hr>
                         <p>
-                            <a href="http://www.nanodesutranslations.wordpress.com"><img class="img-responsive" border="0" alt="" src="http://nanodesutranslations.files.wordpress.com/2014/05/h6wvikg.png" /></a>
+                            <a href="http://www.nanodesutranslations.wordpress.com"><img class="img-responsive" border="0" alt="" src="http://nanodesutranslations.files.wordpress.com/2014/05/h6wvikg.png"
+                                /></a>
                         </p>
                     </div>
                 </div>
@@ -153,4 +173,5 @@
         $('[data-submenu]').submenupicker();
     </script>-->
 </body>
+
 </html>
