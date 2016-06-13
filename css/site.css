@@ -17,12 +17,6 @@ html,body,body>.container,body>.container>.row,body>.container>.row>div {
 	height: 100%;
 }
 
-/* body>.container-fluid, body>.container {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-    */
-
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
