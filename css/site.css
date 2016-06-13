@@ -17,12 +17,6 @@ html,body,body>.container,body>.container>.row,body>.container>.row>div {
 	height: 100%;
 }
 
-/* body>.container-fluid, body>.container {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-    */
-
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
@@ -80,6 +74,14 @@ html,body,body>.container,body>.container>.row,body>.container>.row>div {
   text-align: center;
 }
 
+.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover {
+    color: #ccc;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ccc;
+}
+
 .panel {
     background-color: #222222;
     border-radius: 0px;
@@ -90,7 +92,7 @@ html,body,body>.container,body>.container>.row,body>.container>.row>div {
 }
 
 .panel-default > .panel-heading {
-  color: #888888;
+  color: #ccc;
   background-color: #3c3c3c;
   border-color: #282828
 
@@ -108,7 +110,7 @@ html,body,body>.container,body>.container>.row,body>.container>.row>div {
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
   font-weight: 500;
   line-height: 1.1;
-  color: #ffffff
+  color: #ccc
 }
 
 h4, .h4 {
@@ -117,7 +119,7 @@ h4, .h4 {
 
 body {
   font-family: Arial, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  color: #888888;
+  color: #ccc;
   background-color: #060606
 }
 
