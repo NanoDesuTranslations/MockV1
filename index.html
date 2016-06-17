@@ -17,16 +17,38 @@
 
     <!-- branding -->
     <link rel="stylesheet" href="css/site.css" />
+    <style type="text/css">
+        /* overrides specific to this index page */
+        li > a {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <div class="col-xs-12 box">
-            <h1>Mock Reader</h1>
-            <ul>
-                <li>
-                    The mock starts <a href="ChapMock.html?chap=0">here</a>
-                </li>
-            </ul>
+            <div class="panel">
+                <h1>Mock Reader</h1>
+                <p>
+                    The mock pages, though not complete, generate content (via JavaScript rather than any back end) and
+                    can show how the pages respond to dynamic changes in content.
+                </p>
+                <ul>
+                    <li>
+                        The mock starts <a href="ChapMock.html?chap=0">here</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="panel">
+                <h1>Static example pages</h1>
+                <p>The static example pages show formatting, but all content and menus are static.
+                Script <b>is</b> required in order to fully enable the menus.</p>
+                <ul>
+                    <li>Front page example <a href="FrontStatic.html">here</a></li>
+                    <li>TOC page example <a href="TocStatic.html">here</a></li>
+                    <li>Static chapter <a href="ChapStatic.html">here</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>

@@ -172,6 +172,19 @@ html,body,body>.container,body>.container>.row,body>.container>.row>div {
     border: 1px solid #272727;
 }
 
+.content-container .box {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.box.highlight {
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(80,80,80,1);
+	-moz-box-shadow: 0px 0px 0px 5px rgba(80,80,80,1);
+    /* HTML5 browsers */
+	box-shadow: 0px 0px 0px 5px #3a3a3a;
+    border-color: #575757;
+}
+
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
   font-weight: 500;
   line-height: 1.1;
@@ -184,7 +197,7 @@ h4, .h4 {
 }
 
 body {
-  font-family: Arial, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, "Trebuchet MS", sans-serif;
   color: #ccc;
   background-color: #060606
 }
@@ -218,11 +231,15 @@ body {
     margin-left: 40px;
 }
 
-.toc li > a {
+a {
+    color: #ccc;
+}
+.toc li > a{
     color:#ccc;
     font-weight: bold;
 }
 
-.toc li > a:hover, .toc li > a:focus {
+.toc li > a:hover, .toc li > a:focus, a:hover, a:focus {
     text-decoration: underline;
+    color: #ccc;
 }
