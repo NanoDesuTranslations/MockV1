@@ -208,3 +208,21 @@ body {
 .navbar {
     border-radius: 0;
 }
+
+.toc ul, ul.toc {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.toc {
+    margin-left: 40px;
+}
+
+.toc li > a {
+    color:#ccc;
+    font-weight: bold;
+}
+
+.toc li > a:hover, .toc li > a:focus {
+    text-decoration: underline;
+}
