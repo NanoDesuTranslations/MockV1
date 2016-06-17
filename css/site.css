@@ -10,7 +10,7 @@
 }
 
 .content-container .panel {
-	margin-bottom: 0px;
+	/* margin-bottom: 0px; */
 }
 
 html,body,body>.container,body>.container>.row,body>.container>.row>div {
@@ -70,8 +70,24 @@ html,body,body>.container,body>.container>.row,body>.container>.row>div {
   vertical-align: top;
 }
 
+  .navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 5px
+  }
+
+
 .navbar .navbar-collapse {
   text-align: center;
+}
+
+.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:focus,.navbar-default .navbar-nav>.open>a:hover {
+    color: #ccc;
+    background-color: #3c3c3c;
+}
+
+.nav .open>a,.nav .open>a:focus,.nav .open>a:hover {
+  background-color: transparent;
+  border-color: #337ab7
 }
 
 .navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover {
@@ -82,8 +98,21 @@ html,body,body>.container,body>.container>.row,body>.container>.row>div {
     color: #ccc;
 }
 
+.dropdown-menu {
+    background-color: #1f1f1f;
+}
+
+.dropdown-menu>li>a {
+    color: #ccc;
+}
+
+.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
 .panel {
-    background-color: #222222;
+    background-color: #1f1f1f;
     border-radius: 0px;
 }
 
@@ -93,9 +122,44 @@ html,body,body>.container,body>.container>.row,body>.container>.row>div {
 
 .panel-default > .panel-heading {
   color: #ccc;
-  background-color: #3c3c3c;
+  background-color: #1f1f1f;
   border-color: #282828
+}
 
+
+
+.panel-footer {
+    background-color: #1f1f1f;
+
+}
+
+.pager {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.pager li>a,.pager li>span {
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+.pager li {
+    background-color: transparent;
+}
+
+.pager {
+    text-align: left;
+}
+
+.pager a {
+    color: #ccc;
+    font-weight: bold;
+}
+
+.pager li>a:focus,.pager li>a:hover {
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 .box {
@@ -103,18 +167,20 @@ html,body,body>.container,body>.container>.row,body>.container>.row>div {
 	-webkit-box-shadow: 0px 0px 0px 5px rgba(60,60,60,1);
 	-moz-box-shadow: 0px 0px 0px 5px rgba(60,60,60,1);
     /* HTML5 browsers */
-	box-shadow: 0px 0px 0px 5px #181818;
-    border: 1px solid #666;
+	box-shadow: 0px 0px 0px 5px #1a1a1a;
+
+    border: 1px solid #272727;
 }
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
   font-weight: 500;
   line-height: 1.1;
-  color: #ccc
+  color: #ccc;
+  margin: 0;
 }
 
 h4, .h4 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 body {
@@ -126,7 +192,6 @@ body {
 .jumbotron {
     background-color: #060606;
     padding: 0;
-    margin-bottom: 10px;
 }
 
 .img-thumbnail {
