@@ -237,7 +237,7 @@ function loremStory(idx) {
         var nLinesPar = Math.floor(Math.random() * 5) + 1; // 1 to 5 lines in this paragraph (unless we run our of lines first).
         var i;
         for (i = 0; i < nLinesPar; i++) {
-            s += arLorem[idx++];
+            s += arLorem[idx++] + " ";
             nLines++;
         }
         s += "</p>\n";
