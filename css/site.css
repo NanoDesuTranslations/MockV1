@@ -9,13 +9,10 @@
     margin: 0 auto;
 }
 
-.content-container .panel {
-	/* margin-bottom: 0px; */
-}
 
-html,body,body>.container,body>.container>.row,body>.container>.row>div {
+/* html,body,body>.container,body>.container>.row,body>.container>.row>div {
 	height: 100%;
-}
+} */
 
 .nopadding {
    padding: 0 !important;

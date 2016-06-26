@@ -1,8 +1,3 @@
-/* config.json
- * used at http://getbootstrap.com/customize to create customized bootstrap files for this site and theme.
- * Apparently can be used with less also,
- * Or navigate to the customizerUrl defined in the JSON itself and generate the bootstrap files.
- */
 {
   "vars": {
     "@gray-base": "#000",
@@ -143,7 +138,7 @@
     "@container-sm": "@container-tablet",
     "@container-desktop": "(940px + @grid-gutter-width)",
     "@container-md": "@container-desktop",
-    "@container-large-desktop": "(1024px + @grid-gutter-width)",
+    "@container-large-desktop": "(996px + @grid-gutter-width)",
     "@container-lg": "@container-large-desktop",
     "@navbar-height": "50px",
     "@navbar-margin-bottom": "@line-height-computed",
@@ -436,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=ef87ffc0bef9d5490f00673329b59f33"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=ffa9fbdca457ca947c5ba5921bcaa950"
 }
