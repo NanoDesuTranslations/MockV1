@@ -38,6 +38,19 @@
                         The mock starts <a href="ChapMock.html?chap=0">here</a>
                     </li>
                 </ul>
+                <h2>Width and images</h2>
+                <p>It's been observed that the banner was wider than the image inside.  This is because the original nanodesu translations banner images were 1024px wide,
+                    and the width of the banner was bootstrap's default 1170px (on large desktops).  There are two ways of fixing this; here they are for comparison:  
+                <ul>
+                    <li>We can stretch the image to fit it's container: <a href="ChapMock.html">version A</a>.  This is a simple change to the page, but does require that the image be stretched.
+                        Depending on the image, there may be visual artifacts.
+                    </li>
+                    <li>We can <a href="http://getbootstrap.com/customize">rebuild bootstrap</a> to reduce the size of the container on large desktops: <a href="ChapMockB.html?chap=1">version B</a>.
+                        For maintainability, this requires at least keeping a config.json file checked in in the project and modifying that config rather than modifying bootstrap itself.
+                        The "right" way to do this would involve using the less tool to build a customized bootstrap.min.css and incorporating less into our build process for the site. 
+                    </li>
+                </ul>
+                <p>Aside from technical considerations, there's an aesthetic consideration.  Is it better to read the chapter in the narrower column or in the wider column?</p>
             </div>
             <div class="panel">
                 <h1>Static example pages</h1>
